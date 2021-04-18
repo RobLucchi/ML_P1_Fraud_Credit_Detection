@@ -3,7 +3,7 @@
 
 
 * [Dataset](#dataset)
-* [SVM Model Predictions](#model-predictions)
+* [SVM Model Predictions](#svm-model-predictions)
 * [Keras DL Model Predictions](#keras-dl-model-predictions)
 
 ## Dataset
