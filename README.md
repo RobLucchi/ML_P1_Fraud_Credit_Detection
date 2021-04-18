@@ -3,7 +3,8 @@
 
 
 * [Dataset](#dataset)
-* [Model Predictions](#model-predictions)
+* [SVM Model Predictions](#model-predictions)
+* [Keras DL Model Predictions](#keras-dl-model-predictions)
 
 ## Dataset
 
@@ -25,6 +26,7 @@ It contains only numerical input variables which are the result of a PCA transfo
   - Class weights
   - SMOTE
 * Machine Learning (Support Vector Machine)
+* Deep Learning (keras)
 * Metric Visualization 
   - ROC
   - Confusion Matrix
@@ -35,12 +37,12 @@ It contains only numerical input variables which are the result of a PCA transfo
 * Pandas, , Numpy
 * Matplotlib, Seaborn, plotnine
 * jupyter
-* sklearn, Imblearn
+* sklearn, Imblearn, keras
 * etc. 
 
 <hr>
 
-## Model Predictions
+## SVM Model Predictions
 
 Confusion matrix
 
@@ -52,4 +54,14 @@ Confusion matrix
 - precision: 0.06374501992031872
 - roc auc  : 0.906650042875631
 
+## Keras DL Model Predictions
 
+Confusion matrix
+
+	[[56626    25]
+	 [   13    82]]
+
+f1       : 0.8118811881188119
+recall   : 0.8631578947368421
+precision: 0.7663551401869159
+roc auc  : 0.9650526910381105
